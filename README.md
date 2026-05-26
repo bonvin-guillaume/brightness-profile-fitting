@@ -1,4 +1,4 @@
-# brightness_profile_fitting
+# Vertical brightness profile
 
 Inspect vertical brightness profiles of a Sony JPEG.
 
