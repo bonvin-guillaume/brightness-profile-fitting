@@ -21,3 +21,5 @@ Opens an interactive plot of `LYR-Sony-151221_090202.jpg` in grayscale. Type val
 - `y0`, `y1` &mdash; row range (end exclusive)
 
 The cyan line marks column `x`, the magenta dashed lines mark the row band, the red curve is the brightness profile, and the green `+` marks the brightest pixel in the slice (also shown in the title).
+
+![Example output](brightness_profile_test.png)
