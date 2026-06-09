@@ -5,7 +5,7 @@ import numpy as np
 from matplotlib.widgets import TextBox
 from PIL import Image
 
-SONY_IMAGE_PATH = Path(__file__).resolve().parent / "LYR-Sony-151221_090202.jpg"
+SONY_IMAGE_PATH = Path(__file__).resolve().parent / "LYR-Sony-20200103_085735.jpg"
 SONY_GRAYSCALE_PATH = SONY_IMAGE_PATH.with_name(
     f"{SONY_IMAGE_PATH.stem}_grayscale{SONY_IMAGE_PATH.suffix}"
 )
@@ -175,6 +175,7 @@ if __name__ == "__main__":
     # save_sony_grayscale()
     x = sony_grayscale.shape[1] // 2 + 100
     y = (630, 1000)
+    y = (0,sony_grayscale.shape[0])
     profile = sony_grayscale[:, x]
     print(f"Loaded {SONY_IMAGE_PATH.name}: shape={sony_image.shape}, dtype={sony_image.dtype}")
 
